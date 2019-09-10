@@ -1,0 +1,20 @@
+① $(document).ready(function(){ ~ });
+　HTMLを読み終わったタイミングで、function以下の処理を実行するということ
+
+② $('#btn-evaluation').click(function() { ~ });
+　ランクボタンがクリックされたタイミングで、function以下の処理を実行するということ
+
+③ $('#national_language, #english, #mathematics, #science, #society').change(function() { ~ });
+  国語,英語,数学,理科,社会のinputエリアの中身の値が変更されたタイミングで、function以下を実行するということ
+
+④ $('#national_language').val()
+　国語のinputエリアのvalueの中身を取得している
+
+⑤ Number()
+  文字列を数値に変換している
+
+⑥ $("#sum_indicate").text(sum);
+　 国語,英語,数学,理科,社会を足し込んだ合計値を、合計点に表示している
+
+⑦ .append
+　 appendで指定した要素に、テキストやHTMLの要素を追加する
